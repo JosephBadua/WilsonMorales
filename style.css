@@ -1,0 +1,27 @@
+html {
+    overflow-x: hidden;
+}
+.container-fluid {
+    padding: 0;
+}
+/*Navbar*/
+.navbar {
+    padding: 15px 5%;
+}
+#Wilson {
+    font-family: 'Grenze', serif;
+    font-size: 3.5rem;
+}
+.nav-link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+}
+.background {
+  background-image: url("./gynecologist.jpg");
+  height: 90vh;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
