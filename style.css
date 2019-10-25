@@ -1,5 +1,5 @@
 html {
-    overflow-x: hidden;
+    overflow-x: hidden; 
 }
 .container-fluid {
     padding: 0;
@@ -7,21 +7,131 @@ html {
 /*Navbar*/
 .navbar {
     padding: 15px 5%;
+    background: rgb(130,183,139) !important;
 }
+
 #Wilson {
-    font-family: 'Grenze', serif;
+    font-family: 'Acme', sans-serif;
+
     font-size: 3.5rem;
 }
 .nav-link {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Acme', sans-serif;
     font-size: 2rem;
+    padding-left: 3rem !important;
+}
+.picture {
+    margin-top: 5rem;
+    height: 50vh;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: rgb(130,183,139);
+    padding:1rem;
+    border-radius: 2rem;
+}
+.bottom {
+    margin-bottom: 5rem;
 }
 .background {
   background-image: url("./gynecologist.jpg");
-  height: 90vh;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+#main {
+    font-size: 5rem;
+}
+.sub {
+    font-size: 3rem;
+}
+/*About */
+.About {
+    background:  rgb(130,183,139);
+    color: white;
+    border-top: 1rem solid black;
+}
+.secondPicture {
+    margin-bottom: 5rem;
+    height: 90vh;
+    background: black;
+    padding:1rem;
+    border-radius: 2rem;
+}
+.divider {
+    margin-top: 3rem;
+    height: 0.1rem;
+    background: red;
+    width: 50%;
+}
+.about-name {
+    margin-top: 2rem;
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+}
+.about-info1{
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    padding-right: 7rem;
+}
+.about-info2{
+    margin-top:2rem;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    padding-right: 7rem;
+}
+
+/*Service */
+.Services {
+    background: rgb(217,236,217);
+    color: white;
+}
+.card {
+    color: black;
+    margin-bottom: 5rem !important;
+}
+.services-title{
+    font-size: 4rem;
+}
+.Colposcopy{
+
+}
+.C-Section{
+    
+}
+.Excision{
+    
+}
+.Curettage{
+    
+}
+.Screening{
+    
+}
+.Procedures{
+    
+}
+.Hysterectomy{
+    
+}
+.Myomectomy{
+    
+}
+.Laproscopy{
+    
+}
+  
+/*Insurance */
+.Insurance {
+    background: rgb(248,103,52);
+    color: white;
+}
+
+/*Contact */
+.Office {
+    background: black;
+    color: white;
 }
