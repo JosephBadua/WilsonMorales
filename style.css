@@ -92,36 +92,68 @@ html {
 .card {
     color: black;
     margin-bottom: 5rem !important;
+    height: 40vh;
 }
 .services-title{
     font-size: 4rem;
 }
 .Colposcopy{
-
+    background-image: url("./images/ImageService1.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .C-Section{
-    
+    background-image: url("./images/ImageService2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .Excision{
-    
+    background-image: url("./images/ImageService3.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .Curettage{
-    
+    background-image: url("./images/ImageService4.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .Screening{
+    background-image: url("./images/ImageService5.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
 .Procedures{
-    
+    background-image: url("./images/ImageService6.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .Hysterectomy{
-    
+    background-image: url("./images/ImageService7.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .Myomectomy{
-    
+    background-image: url("./images/ImageService8.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .Laproscopy{
-    
+    background-image: url("./images/ImageService9.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-body:hover {
+    opacity: 0.5;
 }
   
 /*Insurance */
